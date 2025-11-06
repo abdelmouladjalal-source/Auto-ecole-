@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contactez-moi</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", system-ui, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #fff;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 20px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      width: 320px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    }
+    h1 {
+      margin-bottom: 10px;
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+    p {
+      color: #e0e0e0;
+      margin-bottom: 25px;
+      font-size: 15px;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+    .btn:hover {
+      transform: translateY(-3px);
+      opacity: 0.9;
+    }
+    .facebook { background: #1877f2; }
+    .map { background: #34a853; }
+    .phone { background: #0a84ff; }
+    .bx {
+      font-size: 22px;
+    }
+    footer {
+      margin-top: 15px;
+      font-size: 13px;
+      color: #cfd8dc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Contactez-moi</h1>
+    <p>Choisissez un moyen pour me joindre :</p>
+
+    <!-- ?? Facebook -->
+    <a class="btn facebook" href="https://www.facebook.com/Naila.Auto.Ecole" target="_blank">
+      <i class="bx bxl-facebook-circle"></i> Facebook
+    </a>
+
+    <!-- ??? Google Maps -->
+    <a class="btn map" href="https://www.google.com/maps/place/%D9%86%D8%A7%D8%A6%D9%84%D8%A9+%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85+%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D9%82%D8%A9%E2%80%AD/@34.6757037,3.2483068,15z/data=!4m14!1m7!3m6!1s0x1289c59cdc9bb9a7:0x5867e4268050c023!2z2YbYp9im2YTYqSDZhNiq2LnZhNmK2YUg2KfZhNiz2YrYp9mC2Kk!8m2!3d34.6718542!4d3.2670255!16s%2Fg%2F11t1bxgny7!3m5!1s0x1289c59cdc9bb9a7:0x5867e4268050c023!8m2!3d34.6718542!4d3.2670255!16s%2Fg%2F11t1bxgny7?entry=ttu&g_ep=EgoyMDI1MTEwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+      <i class="bx bx-map"></i> Voir sur la carte
+    </a>
+
+    <!-- ?? Appel Téléphonique -->
+    <a class="btn phone" href="tel:+213772315571">
+      <i class="bx bx-phone-call"></i> Appeler Maintenant
+    </a>
+
+    <footer>BY MOHAMMEDI FADJER DJALAL</footer>
+  </div>
+
+</body>
+</html>
